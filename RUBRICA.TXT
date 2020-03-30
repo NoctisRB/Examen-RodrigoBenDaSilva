@@ -1,0 +1,45 @@
+Apartos: 
+
+● (0,5p) Crear un Terrain como base jugable, texturizado y con vegetación.
+
+● (1p) Crear al menos 3 triggers con diferentes funcionalidades de entre las
+siguientes opciones:
+○ Item recolectable.
+○ Zona de muerte.
+○ Zona de inversión de controles.
+○ Lanza una secuencia.
+● (0,5p) Iluminar el escenario con al menos 3 tipos diferentes de luces. Y
+implementar una simulación del ciclo de día/noche.
+
+● (1p) Añadir 2 estados en el animation blueprint del Third Person con nuevas
+animaciones para el personaje de entre las siguientes opciones:
+○ Idle agachado
+○ Caminar agachado (sin blendspace)
+
+● (1p) Crear una secuencia que contenga al menos 4 de las siguientes
+opciones:
+○ Pincha una nueva cámara
+○ Bloquea los controles del player
+○ Lanza un sonido
+○ Mueve algún elemento de la escena
+
+● (0,5p) Crear y lanzar un sonido que al menos tenga 2 de estas
+características:
+
+○ Que cuando se lance no siempre suene el mismo clip.
+○ Modificar su pitch de manera aleatoria entre dos valores.
+
+● (0,5p) Crear alguna funcionalidad en entre las siguientes, en el Level
+Blueprint:
+○ Restart Game
+
+El movimiento del player funciona como siempre. La mayoria de funcionalidades se ven con entrar en la escena como puede ser la secuencia.
+
+Para activar el sonido aleatorio con pitch variable es necesario morir en la deadzone.
+Para agachar al personaje y caminar agachado es necesario teclear la letra C.
+Para resetear la escena es necesario pressionar la tecla R.
+Durante la cinematica el personaje no se mueve, se lanza un sonido, se mueven elementos de escena y se pincha un nueva camara.
+
+Por la escena hay diferentes fuentes luminicas de diversos tipos ademas de una luz que genera efecto de dia y noche.
+
+Hay 3 triggers, un item recolectable, una zona de muerte, y una zona de confusion.
